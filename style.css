@@ -11,7 +11,27 @@ header {
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #b6b1b1;
+
+    /* Myntra-style header separation */
+    border-bottom: 1px solid #f5f5f6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+    position: relative;
+    z-index: 100;
+}
+/* Main section */
+main {
+    background-color: #f5f5f6;
+    padding-top: 25px;
+}
+
+.banner_container {
+    margin: 10px 4% 0;
+}
+
+.banner_image {
+    width: 100%;
+    display: block;
 }
 .myntra_home {
     height: 45px;
@@ -86,7 +106,7 @@ header {
 
 /* Main section */
 .banner_container {
-    margin: 40px 0;
+    margin: 10px 0;
 }
 .banner_image {
     width: 100%;
