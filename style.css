@@ -112,6 +112,18 @@ main {
     width: 100%;
 }
 
+/* Promotional Banner */
+.promo_container {
+    width: 92%;
+    margin: 15px auto;
+}
+
+.promo_container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .category_heading {
     text-transform: uppercase;
     color: #3e4152;
